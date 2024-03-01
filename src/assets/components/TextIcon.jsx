@@ -1,12 +1,12 @@
 import React from "react";
 
-export const TextIcon = ({ icon, text }) => {
+export const TextIcon = (props) => {
   return (
-    <div>
-      <span>{text}</span>
+    <div className="text-icon" id={props.class}>
+      <span>{props.text}</span>
       <img
-        style={{ display: !icon ? "none" : "flex" }}
-        src={`images/${icon}.png`}
+        style={{ display: !(props.icon) ? "none" : "flex" , position: "relative", top: "-2px", }}
+        src={`images/${props.icon}.png`}
       />
     </div>
   );

@@ -109,5 +109,5 @@ export const quickLinks = [
   "Start Build",
   "Build Supplies",
   "Tooling",
-  "BlueHosting",
+  "Blue Hosting",
 ];

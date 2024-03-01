@@ -1,16 +1,15 @@
 import React from "react";
 import UpdateInfo from "./UpdateInfo";
-import TextIcon from "./TextIcon";
-import Links from "./Links"
+import Links from "./Links";
 import DirLinks from "./DirLinks";
-import {quickLinks} from "./Data"
+import { quickLinks } from "./Data";
 
 const Header = () => {
   return (
     <header>
+      <h1>Best Website builders in the US</h1>
       <UpdateInfo />
-      <TextIcon icon={"downarrow"} text={"Top Relevant"}/>
-      <Links links={quickLinks} />
+      <Links links={quickLinks} className="quick-links"/>
       <DirLinks />
     </header>
   );

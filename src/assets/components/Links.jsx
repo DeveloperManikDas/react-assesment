@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Links = ({ links }) => {
+export const Links = ({ links ,className }) => {
   return (
-    <ul>
+    <ul id={className}>
       {links.map((category, index) => (
         <li key={index}>{category}</li>
       ))}

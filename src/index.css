@@ -147,6 +147,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     margin: 20px 0;
+    padding: 20px;
+    height: fit-content;
 }
 
 .image-container {
@@ -155,7 +157,7 @@ main {
     align-items: center;
     flex-direction: column;
     position: relative;
-    height: 255px;
+    /* height: 255px; */
     color: #626E79;
 }
 
@@ -209,10 +211,10 @@ right: -7px;
 
 .review-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 255px;
+    /* height: 255px; */
 }
 .rating-section{
     width: 135px;
@@ -241,4 +243,26 @@ right: -7px;
     border: none;
     height: 48px;
     border-radius: 12px;
+}
+
+.highlight-keys{
+    width: 500px;
+    height: 120px;
+    background-color: #FFF4ED;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+}
+.highlight-keys .key-rating{
+    color:#1B88F4 ;
+    background-color:white ;
+    padding: 3px;
+    margin-right:6px ;
+}
+.highlight-keys .keys{
+color: #4B5665;
+}
+
+.key-values{
+    margin: 10px;
 }

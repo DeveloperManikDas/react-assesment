@@ -78,14 +78,26 @@ export const plansData = [
       description:
         "An extensive library of widgets and apps, and detailed step-by-step guides",
       isHighlightText: false,
-
-
+      keyHighlights: [
+        {
+          rating: 9.9,
+          highlight: "Building responsive",
+        },
+        {
+          rating: 8.9,
+          highlight: "Cool",
+        },
+        {
+          rating: 8.9,
+          highlight: "Docs",
+        },
+      ],
+    
     },
     review: {
       rating: 9.1,
       ratingText: "Very Good",
       starCount: 4,
-
     },
   },
 ];

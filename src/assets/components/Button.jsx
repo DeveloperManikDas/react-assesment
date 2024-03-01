@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export const Button = (props) => {
   return (
-    <button id="view-button">{props.text}</button>
+    <button className='btn' style={{ width: props.width }}>{props.text}</button>
+  );
+};
 
-  )
-}
 export default Button;

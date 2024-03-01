@@ -1,12 +1,12 @@
 import React from 'react';
-import TextIcon from "./TextIcon"
+import { GoChevronDown } from "react-icons/go";
 
 export const AboutPlan = ({plan}) => {
   return (
     <div className="plan-about">
     <div className="about">
       <p>
-        <strong>{plan.title}</strong>
+        <strong className='plan-title'>{plan.title}</strong>
         {plan.description}
       </p>
     </div>
@@ -17,7 +17,8 @@ export const AboutPlan = ({plan}) => {
       </div>
     </div>
     <div className="show-more">
-      <TextIcon icon={"downarrow"} text={"Show more"} />
+      <span>Show more</span>
+      <GoChevronDown />
     </div>
   </div>
   )

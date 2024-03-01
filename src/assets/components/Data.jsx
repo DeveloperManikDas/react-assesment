@@ -78,11 +78,14 @@ export const plansData = [
       description:
         "An extensive library of widgets and apps, and detailed step-by-step guides",
       isHighlightText: false,
+
+
     },
     review: {
       rating: 9.1,
       ratingText: "Very Good",
       starCount: 4,
+
     },
   },
 ];

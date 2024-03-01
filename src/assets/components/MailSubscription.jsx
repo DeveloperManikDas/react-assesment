@@ -4,9 +4,12 @@ import Button from "./Button";
 
 export const MailSubscription = () => {
   return (
-    <div>
+    <div className="mailSubscription">
       <Heading text={`Sign up and get exclusive special deals`} />
-      <Button text={`Sign Up`}/>
+      <div >
+      <input type="text" />
+      <Button text={`Sign Up`} width={65}/>
+      </div>
     </div>
   );
 };

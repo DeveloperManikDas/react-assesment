@@ -43,12 +43,9 @@ export const RelatedDeals = () => {
     <section className="related-deals">
       <Heading text={"Related deals you might like for"} />
 
-
       <div className="related-deals-container">
         {relatedPlansData.map((plan, index) => (
-
           <div className="related-plans" key={index}>
-
             <div className="image-container2">
               <img src={plan.imgUrl} alt={`Plan ${index + 1}`} />
             </div>
@@ -65,11 +62,9 @@ export const RelatedDeals = () => {
             <div className="pricing">
               <span className="price">{plan.price}</span>
               <span className="before-price">{plan.beforePrice}</span>
-              <span className="discount-percent">{`(${plan.discount})`}</span>
-
-
+              <span className="discount-percent-red">{`(${plan.discount})`}</span>
             </div>
-            <Button text={plan.buttonText} />
+            <Button text={plan.buttonText} width={292}/>
           </div>
         ))}
       </div>

@@ -53,6 +53,10 @@ ul li {
     height: 37px;
     border-radius: 8px;
     border: 1px solid #E1E4E6;
+    text-align: right;
+    border: none;
+    padding-right: 10px;
+    font-size: 20px;
 }
 
 .search-box button {
@@ -192,31 +196,36 @@ main {
     font-size: 16px;
     line-height: 24px;
 }
-.main-highlight h4{
+
+.main-highlight h4 {
     color: #2C384A;
 }
-.main-highlight .main-highlight-text{
+
+.main-highlight .main-highlight-text {
     margin-top: 10px;
     margin-left: 20px;
 }
-.show-more{
+
+.show-more {
     align-self: flex-start;
     color: #1B88F4;
 }
-.show-more svg{
-position: relative;
-bottom: -3px;
-right: -7px;
+
+.show-more svg {
+    position: relative;
+    bottom: -3px;
+    right: -7px;
 }
 
-.review-section{
+.review-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     /* height: 255px; */
 }
-.rating-section{
+
+.rating-section {
     width: 135px;
     height: 118px;
     background-color: #F3F9FF;
@@ -227,17 +236,19 @@ right: -7px;
     font-size: 14px;
     line-height: 20px;
 }
-.rating{
-    font-size:32px ;
+
+.rating {
+    font-size: 32px;
     line-height: 48px;
     font-weight: 400;
 }
-.rating svg{
+
+.rating svg {
     background-color: #FFB80F;
     color: #FFB80F;
 }
 
-.btn{
+.btn {
     background-color: #1B88F4;
     color: white;
     border: none;
@@ -245,7 +256,7 @@ right: -7px;
     border-radius: 12px;
 }
 
-.highlight-keys{
+.highlight-keys {
     width: 500px;
     height: 120px;
     background-color: #FFF4ED;
@@ -253,16 +264,108 @@ right: -7px;
     margin: 10px;
     border-radius: 12px;
 }
-.highlight-keys .key-rating{
-    color:#1B88F4 ;
-    background-color:white ;
+
+.highlight-keys .key-rating {
+    color: #1B88F4;
+    background-color: white;
     padding: 3px;
-    margin-right:6px ;
-}
-.highlight-keys .keys{
-color: #4B5665;
+    margin-right: 6px;
 }
 
-.key-values{
+.highlight-keys .keys {
+    color: #4B5665;
+}
+
+.key-values {
     margin: 10px;
+}
+
+.related-deals h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.related-deals-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.related-plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 292px;
+    margin-bottom: 50px;
+}
+
+
+.image-container2 img {
+    width: 141px;
+    height: 103px;
+    margin: 15px;
+    align-self: center;
+}
+
+.offer-valid,
+.discount-percent {
+    box-sizing: content-box;
+    padding: 3px;
+    color: #074786;
+    background-color: #F2F4F7;
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.discount,
+.plan-details,
+.pricing {
+    align-self: flex-start;
+    font-size: 16px;
+    color :#626E79
+}
+
+.plan-name {
+    color: #626E79;
+}
+.price{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.before-price{
+    color:#9FA9B3;
+    font-size:13px ;
+}
+.discount-percent-red{
+    color: red;
+    margin-left: 5px;
+}
+.mailSubscription{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.mailSubscription h2{
+    width: 400px;
+    color: #5C6874;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.mailSubscription button{
+border-radius:  0 8px 8px 0;
+height: 45px;
+}
+.mailSubscription input{
+    height: 45px ;
+    border: 2px solid #E1E4E6;
+    border-right: none ;
+    width: 270px;
 }

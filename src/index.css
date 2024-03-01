@@ -327,31 +327,36 @@ main {
 .pricing {
     align-self: flex-start;
     font-size: 16px;
-    color :#626E79
+    color: #626E79
 }
 
 .plan-name {
     color: #626E79;
 }
-.price{
+
+.price {
     font-size: 20px;
     margin-right: 10px;
 }
-.before-price{
-    color:#9FA9B3;
-    font-size:13px ;
+
+.before-price {
+    color: #9FA9B3;
+    font-size: 13px;
 }
-.discount-percent-red{
+
+.discount-percent-red {
     color: red;
     margin-left: 5px;
 }
-.mailSubscription{
+
+.mailSubscription {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
-.mailSubscription h2{
+
+.mailSubscription h2 {
     width: 400px;
     color: #5C6874;
     font-weight: 400;
@@ -359,13 +364,34 @@ main {
     line-height: 44px;
 }
 
-.mailSubscription button{
-border-radius:  0 8px 8px 0;
-height: 45px;
+.mailSubscription button {
+    border-radius: 0 8px 8px 0;
+    height: 45px;
 }
-.mailSubscription input{
-    height: 45px ;
+
+.mailSubscription input {
+    height: 45px;
     border: 2px solid #E1E4E6;
-    border-right: none ;
+    border-right: none;
     width: 270px;
+}
+
+.categories>div,
+.contact>div {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #212731;
+    color: #B6BDC4;
+    width: 100vw;
+    padding-top: 150px;
+    height: 450px;
+}
+
+footer li {
+    margin: 20px 0;
 }

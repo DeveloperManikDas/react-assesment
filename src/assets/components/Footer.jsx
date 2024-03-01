@@ -6,11 +6,11 @@ import { contactLinks } from "./Data";
 const Footer = () => {
   return (
     <footer>
-      <section className="Categories">
+      <section className="categories">
         <div>CATEGORIES</div>
         <Links links={categoriesData} />{" "}
       </section>
-      <section className="Contact">
+      <section className="contact">
         <div>CONTACT</div>
         <Links links={contactLinks} />
       </section>

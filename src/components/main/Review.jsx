@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../elements/Button";
 import { MdStar, MdStarHalf } from "react-icons/md"; // Import star icons
 
 export const Review = ({ review }) => {

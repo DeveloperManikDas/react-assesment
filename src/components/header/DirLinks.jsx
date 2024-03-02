@@ -1,5 +1,5 @@
 import React from "react";
-import IconText from "./IconText";
+import IconText from "../elements/IconText";
 const dirLinks = ["Hosting for all", "Hosting", "Hosting6", "Hosting5"];
 
 export const DirLinks = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import IconText from "./IconText";
-import TextIcon from "./TextIcon";
+import IconText from "../elements/IconText";
+import TextIcon from "../elements/TextIcon";
 
 export const UpdateInfo = () => {
   return (

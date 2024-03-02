@@ -1,6 +1,6 @@
 import React from "react";
 import Plan from "./Plan";
-import { plansData } from "./Data"; 
+import { plansData } from "../Data"; 
 
 export const Plans = () => {
   return (

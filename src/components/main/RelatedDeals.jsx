@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./Button";
-import Heading from "./Heading";
+import Button from "../elements/Button";
+import Heading from "../elements/Heading";
 
 const relatedPlansData = [
   {

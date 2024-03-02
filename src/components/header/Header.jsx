@@ -1,8 +1,8 @@
 import React from "react";
 import UpdateInfo from "./UpdateInfo";
-import Links from "./Links";
+import Links from "../elements/Links";
 import DirLinks from "./DirLinks";
-import { quickLinks } from "./Data";
+import { quickLinks } from "../Data";
 
 const Header = () => {
   return (

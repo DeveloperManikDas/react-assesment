@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from "./Heading";
-import Button from "./Button";
+import Heading from "../elements/Heading";
+import Button from "../elements/Button";
 
 export const MailSubscription = () => {
   return (

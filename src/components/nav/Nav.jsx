@@ -1,7 +1,7 @@
 import React from "react";
-import Links from "./Links"
+import Links from "../elements/Links"
 import { SearchBox } from "./SearchBox";
-import {topNavLinks} from "./Data"
+import {topNavLinks} from "../Data"
 
 const Nav = () => {
   return (

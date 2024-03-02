@@ -1,5 +1,5 @@
 import React from "react";  
-import IconText from "./IconText";
+import IconText from "../elements/IconText";
 
 const iconTextData= ["Documentation", "Easy Use", "Out of box"];
 
